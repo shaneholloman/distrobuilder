@@ -14,7 +14,7 @@ default:
 .PHONY: update-gomod
 update-gomod:
 	go get -t -v -u ./...
-	go mod tidy --go=1.25.0
+	go mod tidy --go=1.25.6
 	go get toolchain@none
 	@echo "Dependencies updated"
 
