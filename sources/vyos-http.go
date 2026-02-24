@@ -9,7 +9,7 @@ import (
 	"github.com/google/go-github/v56/github"
 	"golang.org/x/sys/unix"
 
-	"github.com/lxc/distrobuilder/shared"
+	"github.com/lxc/distrobuilder/v3/shared"
 )
 
 type vyos struct {

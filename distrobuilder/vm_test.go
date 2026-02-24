@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/lxc/distrobuilder/shared"
+	"github.com/lxc/distrobuilder/v3/shared"
 )
 
 func lsblkOutputHelper(t *testing.T, v *vm, args [][]string) func() {

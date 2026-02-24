@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/lxc/distrobuilder/generators"
-	"github.com/lxc/distrobuilder/shared"
+	"github.com/lxc/distrobuilder/v3/generators"
+	"github.com/lxc/distrobuilder/v3/shared"
 )
 
 type cmdBuildDir struct {

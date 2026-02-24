@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/lxc/distrobuilder/shared"
+	"github.com/lxc/distrobuilder/v3/shared"
 )
 
 func updateFileAccess(file *os.File, defFile shared.DefinitionFile) error {

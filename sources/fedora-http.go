@@ -13,7 +13,7 @@ import (
 
 	"github.com/lxc/incus/v6/shared/subprocess"
 
-	"github.com/lxc/distrobuilder/shared"
+	"github.com/lxc/distrobuilder/v3/shared"
 )
 
 type fedora struct {

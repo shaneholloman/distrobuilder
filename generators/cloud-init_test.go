@@ -11,8 +11,8 @@ import (
 	incus "github.com/lxc/incus/v6/shared/util"
 	"github.com/stretchr/testify/require"
 
-	"github.com/lxc/distrobuilder/image"
-	"github.com/lxc/distrobuilder/shared"
+	"github.com/lxc/distrobuilder/v3/image"
+	"github.com/lxc/distrobuilder/v3/shared"
 )
 
 func TestCloudInitGeneratorRunLXC(t *testing.T) {

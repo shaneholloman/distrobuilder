@@ -12,7 +12,7 @@ import (
 
 	"github.com/antchfx/htmlquery"
 
-	"github.com/lxc/distrobuilder/shared"
+	"github.com/lxc/distrobuilder/v3/shared"
 )
 
 type plamolinux struct {

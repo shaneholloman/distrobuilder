@@ -13,7 +13,7 @@ import (
 	incus "github.com/lxc/incus/v6/shared/util"
 	"golang.org/x/sys/unix"
 
-	"github.com/lxc/distrobuilder/shared"
+	"github.com/lxc/distrobuilder/v3/shared"
 )
 
 type vm struct {

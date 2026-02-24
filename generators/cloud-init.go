@@ -10,8 +10,8 @@ import (
 	"github.com/lxc/incus/v6/shared/api"
 	incus "github.com/lxc/incus/v6/shared/util"
 
-	"github.com/lxc/distrobuilder/image"
-	"github.com/lxc/distrobuilder/shared"
+	"github.com/lxc/distrobuilder/v3/image"
+	"github.com/lxc/distrobuilder/v3/shared"
 )
 
 type cloudInit struct {
